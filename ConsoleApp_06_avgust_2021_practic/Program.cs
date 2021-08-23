@@ -10,15 +10,39 @@ namespace ConsoleApp_06_avgust_2021_practic
     {
         static void Main(string[] args)
         {
-            #region  таблица умножения  , вариант 1
+            int[] array1;
+            Console.WriteLine("сколько ?\n");
+            int n = Convert.ToInt32(Console.ReadLine());
+            array1 = new int[n];
+            Random rnd = new Random();
 
-            //таблица умножения  , вариант 1
-            Console.WriteLine("таблица умножения , вариант 1");
+            for (int i = 0; i < array1.Length; i++)
+            {
+                array1[i] = rnd.Next(10);
+                Console.Write($"{array1[i]} ");
+            }
+            Console.WriteLine("\n сколько ?\n");
+            n = Convert.ToInt32(Console.ReadLine());
+            Array.Resize(ref array1, n);
+            for (int i = 0; i < array1.Length; i++)
+            {
+                //array1[i] = rnd.Next(10);
+                Console.Write($"{array1[i]} ");
+            }
+            #region   1
+            //int x = 56;
+            //Console.WriteLine(x);
+            //Double(x);
+            //Console.WriteLine(x);
 
-            
             #endregion
-
             Console.ReadKey();
         }
+
+        //private static int Double(int x1)
+        //{
+        //    int x = x1 *2;
+        //    return  x;
+        //}
     }
 }
