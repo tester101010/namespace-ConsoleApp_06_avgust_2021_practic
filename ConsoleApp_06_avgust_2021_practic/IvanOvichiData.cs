@@ -8,14 +8,14 @@ namespace ConsoleApp_06_avgust_2021_practic
 {
     namespace Ivanov.Ivanovich
     {
-        static class Ivan
+        internal static class Ivan
         {
             public static string Name()
             {
                 return "Ivan Ivany4 Ivanov";
             }
         }
-        static class Petr
+        internal static class Petr
         {
             public static string Name()
             {

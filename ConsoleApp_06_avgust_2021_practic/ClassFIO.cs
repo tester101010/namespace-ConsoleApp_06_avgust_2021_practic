@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_06_avgust_2021_practic
 {
-    class ClassFIO
+    internal class ClassFIO
     {
         private static string FirstName()
         {
             return "MyName";
         }
 
-        public static string LastName()
+        private static string LastName()
         {
             return "MyLasstName";
         }
 
-        public static string MiddleName()
+        private static string MiddleName()
         {
             return "MyMiddleName";
         }
