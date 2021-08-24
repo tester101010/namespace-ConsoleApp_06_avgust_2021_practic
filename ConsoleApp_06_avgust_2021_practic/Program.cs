@@ -14,7 +14,8 @@ namespace ConsoleApp_06_avgust_2021_practic
             Console.WriteLine(PetrIvanovich.Name());
             Console.WriteLine(PetrPetrovich.Name());
 
-            Console.WriteLine(ClassFIO.FullName() ); 
+            Console.WriteLine(ClassPerson.ClassFIO.FullName() );
+            //Console.WriteLine(ClassPerson.);
             #region MyRegion
             //int[] array1;
             //Console.WriteLine("сколько ?\n");

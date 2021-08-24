@@ -6,36 +6,42 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_06_avgust_2021_practic
 {
-    internal class ClassFIO
+    internal class ClassPerson
     {
-        private static string FirstName()
+        internal static class ClassFIO
         {
-            return "MyName";
+            private static string FirstName()
+            {
+                return "MyName";
+            }
+
+            private static string LastName()
+            {
+                return "MyLasstName";
+            }
+
+            private static string MiddleName()
+            {
+                return "MyMiddleName";
+            }
+
+            public static string FullName()
+            {
+                return $"{FirstName()} {MiddleName()} {LastName()}";
+            }
         }
 
-        private static string LastName()
+        class ClassBody
         {
-            return "MyLasstName";
-        }
+            public static int ArmsAmount()
+            {
+                return 2;
+            }
 
-        private static string MiddleName()
-        {
-            return "MyMiddleName";
-        }
-
-        public static string FullName()
-        {
-            return $"{FirstName()} {MiddleName()} {LastName()}";
-        }
-
-        public static int ArmsAmount()
-        {
-            return 2;
-        }
-
-        public static int LegsAmount()
-        {
-            return 2;
+            public static int LegsAmount()
+            {
+                return 2;
+            }
         }
     }
 }
