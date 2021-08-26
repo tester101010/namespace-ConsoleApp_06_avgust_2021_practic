@@ -54,14 +54,5 @@ namespace ConsoleApp_06_avgust_2021_practic.computation
             return x / y;
         }
 
-        public static int StringLength(string str)
-        {
-            return str.Length;
-        }
-
-        public static int Random(int min, int max)
-        {
-            return new Random().Next(min, max);
-        }
     }
 }
