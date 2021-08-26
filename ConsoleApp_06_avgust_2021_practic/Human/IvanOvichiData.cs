@@ -15,6 +15,7 @@ namespace ConsoleApp_06_avgust_2021_practic
                 return "Ivan Ivany4 Ivanov";
             }
         }
+
         internal static class Petr
         {
             public static string Name()
