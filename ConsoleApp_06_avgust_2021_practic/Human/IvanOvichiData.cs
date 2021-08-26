@@ -24,15 +24,4 @@ namespace ConsoleApp_06_avgust_2021_practic
             }
         }
     }
-
-    //namespace Ivanov.Petrovich
-    //{
-    //    static class Petr
-    //    {
-    //        public static string Name()
-    //        {
-    //            return "Petr Petrovich Ivanov";
-    //        }
-    //    }
-    //}
 }
