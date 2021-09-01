@@ -23,13 +23,11 @@ namespace ConsoleApp_06_avgust_2021_practic
 
             //Console.WriteLine(ClassPerson.ClassFIO.FullName());
             #endregion
-            //Console.WriteLine(ClassPerson.);
+            //Console.WriteLine(ClassPerson.ClassFIO.FullName());
 
-            //computation.Calculator.Add(x3,x2);
             MethodCalculateNum1OrNum2(x1, x3);
 
-            //Console.WriteLine(computation.StringCalc.
-            //    StringLength("jnjkldghdfghdfghdfhdfnjkh"));
+            //Console.WriteLine(computation.StringCalc.StringLength("jnjkldghdfghdfghdfhdfnjkh"));
 
             //Console.WriteLine(computation.GenerateRandomNum.Random(5, 55));
 
