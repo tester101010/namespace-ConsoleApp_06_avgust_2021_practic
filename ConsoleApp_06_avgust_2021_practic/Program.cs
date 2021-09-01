@@ -1,8 +1,4 @@
-﻿using ConsoleApp_06_avgust_2021_practic.Ivanov.Ivanovich;
-//using ConsoleApp_06_avgust_2021_practic.Ivanov.Petrovich;
-using PetrIvanovich = ConsoleApp_06_avgust_2021_practic.Ivanov.Ivanovich.Petr;
-using PetrPetrovich = ConsoleApp_06_avgust_2021_practic.Ivanov.Petrovich.Petr;
-using System;
+﻿using System;
 
 namespace ConsoleApp_06_avgust_2021_practic
 {
@@ -23,7 +19,6 @@ namespace ConsoleApp_06_avgust_2021_practic
 
             //Console.WriteLine(ClassPerson.ClassFIO.FullName());
             #endregion
-            //Console.WriteLine(ClassPerson.ClassFIO.FullName());
 
             MethodCalculateNum1OrNum2(x1, x3);
 
@@ -60,6 +55,9 @@ namespace ConsoleApp_06_avgust_2021_practic
             //Console.WriteLine(y);
 
             #endregion
+=======
+
+
             Console.ReadKey();
         }
 
@@ -95,12 +93,6 @@ namespace ConsoleApp_06_avgust_2021_practic
             x1 = Convert.ToDouble(s1);
             return x1;
         }
-
-        //private static int DoubleX(int x1)
-        //{
-        //    int x = x1 * 2;
-        //    return x;
-        //}
     }
 }
 
