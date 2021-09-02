@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_06_avgust_2021_p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupOfClassesLibrary1", "GroupOfClassesLibrary1\GroupOfClassesLibrary1.csproj", "{FA17DCF6-12BA-4BBB-8C73-3A1D1160AA6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary.Less10.Enum", "ClassLibrary.Less10.Enum\ClassLibrary.Less10.Enum.csproj", "{0A8A4EB0-0047-4C87-86D1-09495342D144}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FA17DCF6-12BA-4BBB-8C73-3A1D1160AA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA17DCF6-12BA-4BBB-8C73-3A1D1160AA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA17DCF6-12BA-4BBB-8C73-3A1D1160AA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8A4EB0-0047-4C87-86D1-09495342D144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8A4EB0-0047-4C87-86D1-09495342D144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8A4EB0-0047-4C87-86D1-09495342D144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8A4EB0-0047-4C87-86D1-09495342D144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,10 +10,57 @@ namespace ConsoleApp_06_avgust_2021_practic
             double x2 = 6;
             double x3 = 3;
 
-            MethodConvertStringToDouble(out x1, x2, out x3);
+           // MethodConvertStringToDouble(out x1, x2, out x3);
 
-            MethodCalculateNum1OrNum2(x1, x3);
 
+            //MethodCalculateNum1OrNum2(x1, x3);
+
+            Console.WriteLine(ClassLibrary.Less10.Enum.ClassStep1.MethodStep1(true, " 111111111 "));
+
+
+            #region Region My tests
+
+            //Console.WriteLine(computation.StringCalc.StringLength("jnjkldghdfghdfghdfhdfnjkh"));
+            //Console.WriteLine(computation.GenerateRandomNum.Random(5, 55));
+            //Console.WriteLine(ClassPerson.ClassFIO.FullName());
+
+            #region Region persons
+            //Console.WriteLine(Ivan.Name());
+            //Console.WriteLine(PetrIvanovich.Name());
+            //Console.WriteLine(PetrPetrovich.Name());
+
+            //Console.WriteLine(ClassPerson.ClassFIO.FullName());
+            #endregion
+            #region MyRegion
+            //int[] array1;
+            //Console.WriteLine("сколько ?\n");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //array1 = new int[n];
+            //Random rnd = new Random();
+
+            //for (int i = 0; i < array1.Length; i++)
+            //{
+            //    array1[i] = rnd.Next(10);
+            //    Console.Write($"{array1[i]} ");
+            //}
+            //Console.WriteLine("\n сколько ?\n");
+            //n = Convert.ToInt32(Console.ReadLine());
+            //Array.Resize(ref array1, n);
+            //for (int i = 0; i < array1.Length; i++)
+            //{
+            //    //array1[i] = rnd.Next(10);
+            //    Console.Write($"{array1[i]} ");
+            //}
+            #endregion
+            #region   1
+            //int x = 56;
+            //Console.WriteLine(x);
+            //int y = DoubleX(x);
+            //Console.WriteLine(y);
+
+            #endregion
+
+            #endregion
             Console.ReadKey();
         }
 
@@ -49,6 +96,12 @@ namespace ConsoleApp_06_avgust_2021_practic
             x1 = Convert.ToDouble(s1);
             return x1;
         }
+
+        //private static int DoubleX(int x1)
+        //{
+        //    int x = x1 * 2;
+        //    return x;
+        //}
     }
 }
 
