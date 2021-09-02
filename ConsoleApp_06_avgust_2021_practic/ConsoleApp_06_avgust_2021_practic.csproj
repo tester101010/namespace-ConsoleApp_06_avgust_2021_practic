@@ -55,6 +55,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary.Less10.Enum\ClassLibrary.Less10.Enum.csproj">
+      <Project>{0a8a4eb0-0047-4c87-86d1-09495342d144}</Project>
+      <Name>ClassLibrary.Less10.Enum</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GroupOfClassesLibrary1\GroupOfClassesLibrary1.csproj">
       <Project>{fa17dcf6-12ba-4bbb-8c73-3a1d1160aa6f}</Project>
       <Name>GroupOfClassesLibrary1</Name>

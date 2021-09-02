@@ -12,7 +12,7 @@ namespace ConsoleApp_06_avgust_2021_practic
         {
             public static string Name()
             {
-                return "Petr Petrovich Ivanov";
+                return "Petr Petrovich Ivanov, GroupOfClassesLibrary1";
             }
         }
     }

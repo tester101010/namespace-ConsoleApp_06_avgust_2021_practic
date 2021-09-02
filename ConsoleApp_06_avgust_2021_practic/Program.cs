@@ -14,7 +14,19 @@ namespace ConsoleApp_06_avgust_2021_practic
             double x2 = 6;
             double x3 = 3;
 
-            MethodConvertStringToDouble(out x1, x2, out x3);
+           // MethodConvertStringToDouble(out x1, x2, out x3);
+
+
+            //MethodCalculateNum1OrNum2(x1, x3);
+
+            Console.WriteLine(ClassLibrary.Less10.Enum.ClassStep1.MethodStep1(true, " 111111111 "));
+
+
+            #region Region My tests
+
+            //Console.WriteLine(computation.StringCalc.StringLength("jnjkldghdfghdfghdfhdfnjkh"));
+            //Console.WriteLine(computation.GenerateRandomNum.Random(5, 55));
+            //Console.WriteLine(ClassPerson.ClassFIO.FullName());
 
             #region Region persons
             //Console.WriteLine(Ivan.Name());
@@ -23,14 +35,6 @@ namespace ConsoleApp_06_avgust_2021_practic
 
             //Console.WriteLine(ClassPerson.ClassFIO.FullName());
             #endregion
-            //Console.WriteLine(ClassPerson.ClassFIO.FullName());
-
-            MethodCalculateNum1OrNum2(x1, x3);
-
-            //Console.WriteLine(computation.StringCalc.StringLength("jnjkldghdfghdfghdfhdfnjkh"));
-
-            //Console.WriteLine(computation.GenerateRandomNum.Random(5, 55));
-
             #region MyRegion
             //int[] array1;
             //Console.WriteLine("сколько ?\n");
@@ -52,12 +56,13 @@ namespace ConsoleApp_06_avgust_2021_practic
             //    Console.Write($"{array1[i]} ");
             //}
             #endregion
-
             #region   1
             //int x = 56;
             //Console.WriteLine(x);
             //int y = DoubleX(x);
             //Console.WriteLine(y);
+
+            #endregion
 
             #endregion
             Console.ReadKey();
